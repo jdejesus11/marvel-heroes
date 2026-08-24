@@ -1,0 +1,20 @@
+{
+  "name": "console-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --watch --preserveWatchOutput",
+    "typecheck": "",
+    "test": "jest ./src/*",
+    "format": "prettier . --write",
+    "output": "tsc && node ./dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^3.9.6",
+    "typescript": "^7.0.2",
+    "vitest": "^4.1.11"
+  }
+}
